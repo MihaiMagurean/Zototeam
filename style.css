@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.p {
+    color: black;
+    position: absolute;
+    width: 200px;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    background-image: linear-gradient(90deg, #2b5876, #4e4376);
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.info__link {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+
+.info__link:hover {
+    color: orange;
+    font-size: 17px;
+    transition-duration: 0.1s;
+}
+
+.info__link:active {
+    color: grey;
+}
+
+.car {
+    margin: 50px 25px;
+    border: 2px solid grey;
+    padding: 7px 5px;
+}
+
+button {
+    margin: 15px;
+    height: 30px;
+    width: 100px;
+    background-color: #c0e9ff;
+}
+
+button:hover {
+    background-image: linear-gradient(90deg, #71c5ee, #025091);
+    font-size: 15px;
+    transition-duration: 0.2s;
+}
+
+button:active {
+    color: #fff;
+    transition-duration: 0.2s;
+}
+
+.price {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.footer {
+    display: flex;
+    background-image: linear-gradient(90deg, #2b5876, #4e4376);
+    height: 350px;
+    align-items: end;
+    flex-direction: column;
+    padding: 50px 35px 50px 50px;
+    justify-content: space-between;
+}
